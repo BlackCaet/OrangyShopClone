@@ -16,9 +16,8 @@
     justify-content: center;
   }
   img{
-    max-width: 100%;
     margin-left: 10px;
-    padding-right: 10px;
+    margin-right: 10px;
     border-radius: 20px;
   }
   .page-1_content{
@@ -33,5 +32,32 @@
 }
 /*Mobile*/
 @media (max-width:740px){
-
+  body{
+    margin: 0 auto;
+  }
+  p{
+    text-align: center;
+  }
+  .title{
+    font-size: 2.25em;
+  }
+  .page-1_images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-1_image{
+    flex: 1;
+  }
+  img{
+    /* max-width: 100%; */
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .page-1_content{
+    width: 100%;
+    margin: 10px;
+  }
 }
